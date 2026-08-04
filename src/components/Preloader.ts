@@ -3,6 +3,7 @@
 import { TOTAL_FRAMES } from '../data';
 
 export function createPreloader(): HTMLElement {
+  document.body.classList.add('preloader-active');
   const el = document.createElement('div');
   el.id = 'preloader';
   el.className = 'preloader-overlay fullscreen-preloader';

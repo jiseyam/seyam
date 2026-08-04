@@ -176,8 +176,9 @@ async function boot(): Promise<void> {
     }
   });
 
-  // Fade out preloader
+  // Fade out preloader & activate custom cursor
   preloader.classList.add('hidden');
+  document.body.classList.remove('preloader-active');
 
   // Draw first frame & start loop
   drawFrame(0);

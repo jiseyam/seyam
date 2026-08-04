@@ -245,6 +245,20 @@ p {
   }
 }
 
+/* Hide custom cursor while loading screen is active */
+body.preloader-active,
+body.preloader-active * {
+  cursor: default !important;
+}
+
+body.preloader-active .custom-cursor-dot,
+body.preloader-active .custom-cursor-ring,
+body.preloader-active .cursor-sparkle {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
 /* ============================================================
    PRELOADER — FULLSCREEN CINEMATIC EXPERIENCE
    ============================================================ */
