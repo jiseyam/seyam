@@ -1,7 +1,5 @@
 // About Section Component — Terminal & Bento Grid Redesign
 
-import { aboutBio, highlights } from '../data';
-
 export function createAbout(): HTMLElement {
   const section = document.createElement('section');
   section.id = 'about';
