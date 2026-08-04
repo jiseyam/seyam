@@ -1,0 +1,17 @@
+[
+  {
+    "id": "under-maintenance",
+    "title": "Projects Under Maintenance 🛠️",
+    "description": "My project showcase is currently undergoing a complete update and code refactoring. New Flutter mobile apps, web applications, and backend APIs will be published here soon!",
+    "tech": ["Flutter", "Dart", "React", "TypeScript", "MySQL"],
+    "category": "flutter",
+    "gradient": "grad-portfolio",
+    "emoji": "🚧",
+    "features": [
+      "New Flutter cross-platform applications coming soon",
+      "Refactored clean architecture & state management codebases",
+      "Updated live demo URLs & GitHub repository links",
+      "Check back shortly for new project showcases & case studies"
+    ]
+  }
+]
